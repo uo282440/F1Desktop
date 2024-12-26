@@ -1,0 +1,41 @@
+/* Pablo Jose Perez Diez UO282440  */
+
+/*Selector Specificity: (0, 0, 1)*/
+main {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    flex-direction: column; 
+}
+  
+/*Selector Specificity: (0, 0, 1)*/
+article {
+    width: 40%; 
+    margin: 0.5% 0; 
+    text-align: center;
+    border-style: solid;
+    color: white;
+    background-color: black;
+}   
+
+/*Selector Specificity: (0, 0, 2)*/
+article img {
+    width: 20%;
+    height: auto;
+}
+
+/*Selector Specificity: (0, 0, 2)*/
+section h6 {
+    display: none;
+    visibility: hidden;
+}
+
+/*Selector Specificity: (0, 0, 2)*/
+main input {
+    visibility: hidden;
+}
+
+/*Selector Specificity: (0, 0, 3)*/
+main form input {
+    visibility: visible;
+}

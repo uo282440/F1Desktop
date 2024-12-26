@@ -1,0 +1,113 @@
+/* Pablo Jose Perez Diez UO282440  */
+
+
+/*Selector Specificity: (0, 0, 1)*/
+h3 {
+    margin-top: 5%;
+    text-align: center;
+}
+
+/*Selector Specificity: (0, 0, 2)*/
+section h6 {
+    display: none;
+    visibility: hidden;
+}
+
+/*Selector Specificity: (0, 1, 1)*/
+section:nth-of-type(2){ 
+    display: grid;
+    grid-template-columns: repeat(2, 13vw); 
+    grid-auto-rows: auto; 
+    gap: 4%; 
+
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+/*Selector Specificity: (0, 0, 2)*/
+main section{ 
+    display: grid;
+    grid-template-columns: repeat(4, 13vw); 
+    grid-auto-rows: auto; 
+    
+    gap: 2%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+/*Selector Specificity: (0, 0, 3)*/
+main section div {
+    width: 8vw;
+    height: 8vw;
+    border: 0.3rem solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*color hereda de main*/
+    background-color: gray;
+    box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    position: relative;
+}
+
+/*Selector Specificity: (0, 0, 0)*/
+@keyframes encender {
+    /*Redefinición de background-color permitida*/
+    from {background-color: gray;}
+    to {background-color: red;}
+}
+
+/*Selector Specificity: (0, 0, 0)*/
+@keyframes out {
+    /*Redefinición de background-color permitida*/
+    from {background-color: red;}
+    to {background-color: grey;}
+}
+
+/*Selector Specificity: (0, 1, 1)*/
+div.load {
+    animation-name: encender;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-delay: 0s;
+}
+
+/*Selector Specificity: (0, 1, 1)*/
+div.unload {
+    animation-name: out;
+    animation-duration: 0.1s;
+    animation-fill-mode: forwards;
+}
+
+/*Selector Specificity: (0, 0, 2)*/
+main p {
+    text-align: center;
+}
+
+/*Selector Specificity: (0, 0, 2)*/
+header + p {
+    /*background-color hereda de header*/
+    margin-left: 1%;
+    font-size: 0.85em; 
+    color: gray; 
+}
+
+/*Selector Specificity: (0, 0, 1)*/
+article {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+}
+
+/*Selector Specificity: (0, 0, 3)*/
+main article input {
+    visibility: visible;
+}
+
+/*Selector Specificity: (0, 0, 2)*/
+ol li{
+    text-align: center;
+}

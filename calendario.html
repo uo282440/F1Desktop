@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>CALENDARIO</title>
+
+
+    <meta name ="author" content ="uo282440 Pablo Jose Perez Diez" />
+    <meta name ="description" content ="calendario del proyecto F1 Desktop" />
+    <meta name ="keywords" content ="aquí cada documento debe tener la lista
+        de las palabras clave del mismo separadas por comas" />
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+
+    <!-- Enlace del icono -->
+    <link rel="icon" href="multimedia/imagenes/favicon.ico" type="image/png">
+    <link rel="stylesheet" href="estilo/estilo.css">
+    <link rel="stylesheet" href="estilo/layout.css">
+    <link rel="stylesheet" href="estilo/agenda_grid.css">
+
+    <script src="js/agenda.js"></script>
+
+    <script 
+        src="https://code.jquery.com/jquery-3.7.1.min.js" 
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" 
+        crossorigin="anonymous">
+    </script>
+
+</head>
+
+<body>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+
+    <header>
+
+        <h1>
+            <a href="index.html">F1 Desktop</a>
+        </h1>
+
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="calendario.html" class="active">Calendario</a>
+            <a href="circuito.html">Circuito</a>
+            <a href="juegos.html">Juegos</a>
+            <a href="meteorologia.html">Meteorologia</a>
+            <a href="noticias.html">Noticias</a>
+            <a href="piloto.html">Piloto</a>
+            <a href="viajes.php">Viajes</a>
+        </nav>
+
+    </header>
+
+    <!--Migas de navegacion-->
+    <p data-migas="true">Estás en: <a href="index.html"><u><strong>Inicio</strong></u></a> >> Calendario</p>
+
+
+    <h2>Calendario</h2>
+
+    <section>
+        <h3>Carreras</h3>
+    </section>
+
+
+    <main>
+
+    </main>
+
+    <script>
+        var js = new Agenda();
+        js.inicializaPagina();
+    </script>
+
+
+</body>
+</html>

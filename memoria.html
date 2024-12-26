@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>JUEGOS</title>
+
+
+    <meta name ="author" content ="uo282440 Pablo Jose Perez Diez" />
+    <meta name ="description" content ="pagina de Juegos" />
+    <meta name ="keywords" content ="aquí cada documento debe tener la lista
+        de las palabras clave del mismo separadas por comas" />
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+
+     
+    <!-- Enlace del icono -->
+    <link rel="icon" href="multimedia/imagenes/favicon.ico" type="image/png">
+    <!-- <link rel="stylesheet" href="estilo/estilo.css"> -->
+    <link rel="stylesheet" href="estilo/layout.css">
+    <link rel="stylesheet" href="estilo/memoria.css">
+
+    <script src="js/memoria.js"></script>
+
+</head>
+
+<body>
+    
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <header>
+
+        <h1>
+            <a href="index.html">F1 Desktop</a>
+        </h1>
+
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="calendario.html">Calendario</a>
+            <a href="circuito.html">Circuito</a>
+            <a href="juegos.html" class="active">Juegos</a>
+            <a href="meteorologia.html">Meteorologia</a>
+            <a href="noticias.html">Noticias</a>
+            <a href="piloto.html">Piloto</a>
+            <a href="viajes.php">Viajes</a>
+        </nav>
+
+    </header>
+
+    <p data-migas="true">Estás en: <a href="index.html"><u><strong>Inicio</strong></u></a> >> Juegos</p>
+
+
+    <section>
+        <h2>Juegos</h2>
+        <nav>
+            <a href="memoria.html"><u><strong>Juego de Memoria</strong></u></a>
+            <a href="semaforo.php">Juego tiempo de Reaccion</a>
+            <a href="api.html">Trivia Circuito Cercano</a>
+            <a href="php/gestionF1.php">Gestion F1</a>
+        </nav>
+    </section>
+
+    <p>Juego de memoria en el que se deben encontrar parejas de cartas iguales al voltearlas de manera estratégica.</p>
+
+    <p>
+        El juego de memoria consiste en encontrar todas las parejas de cartas iguales en el tablero. 
+        Para jugar, voltea dos cartas por turno; si coinciden, permanecen descubiertas, y si no, 
+        se voltean de nuevo. Observa con atención y utiliza tu memoria para recordar la posición de las cartas que ya viste. 
+        El objetivo es completar el tablero encontrando todas las parejas en el menor tiempo posible. 
+        ¡Diviértete y desafía tu mente!
+    </p>
+
+    <section>
+        <h3>Juego de Memoria</h3>
+        
+    </section>
+
+    <script>
+        
+        var juego = new Memoria();
+        juego.createElements();
+    </script>
+
+</body>
+</html>

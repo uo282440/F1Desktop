@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE circuito SYSTEM "circuito.dtd">
+
+<circuito>
+
+    <nombre> Circuit Gilles Villeneuve </nombre>
+    <longitudCircuito>4361</longitudCircuito>
+    <anchura>12</anchura>
+    <fecha>09/06/2024</fecha>
+    <horaInicio>20:00</horaInicio>
+    <numeroVueltas>70</numeroVueltas>
+    <localidad>Montreal</localidad>
+    <pais>Canadá</pais>
+    
+
+    <referencias>
+        <referencia nombre="Historia del Circuito Gilles Villeneuve" enlace="https://es.wikipedia.org/wiki/Circuito_Gilles-Villeneuve" /> 
+        <referencia nombre="Datos técnicos del circuito de Montreal" enlace=" https://www.formula1.com/en/racing/2024/Canada.html"/> 
+        <referencia nombre="Circuito de Canadá - Fórmula 1" enlace="https://www.motorsport.com/f1/canadian-gp"/> 
+    </referencias>
+
+    <fotos>
+        <!-- meter las fotos dentro de la carpeta xml(segun pone en P4) -->
+        <foto nombre="Mapa del circuito" enlace="../multimedia/imagenes/mapa_circuito.jpg"/>
+    </fotos>
+
+    <videos>
+        <video nombre="video1" enlace="enlace"/>
+    </videos>
+
+    <coordenadas> 
+        <longitud valor ="-73.5226"/>
+        <latitud valor = "45.5007"/>
+        <altitud valor = "7 metros"/>
+    </coordenadas>
+
+    <tramos>
+        <tramo>
+            <distancia valor="650"/>
+            <coordenadas>
+                <longitud valor="-73.5226"/>
+                <latitud valor="45.5007"/>
+                <altitud valor = "7"/>
+            </coordenadas>
+            <numeroSector valor= "7"/>
+        </tramo>
+
+        <tramo>
+            <distancia valor = "200"/>
+            <coordenadas>
+                <longitud valor="-73.5241"/>
+                <latitud valor= "45.5012"/>
+                <altitud valor ="7"/>
+            </coordenadas>
+            <numeroSector valor = "1"/>
+        </tramo>
+
+        <tramo>
+            <distancia valor = "800"/>
+            <coordenadas>
+                <longitud valor = "-73.5264"/>
+                <latitud valor = "45.5031"/>
+                <altitud valor = "8"/>
+            </coordenadas>
+            <numeroSector valor="2"/>
+        </tramo>
+
+        <tramo>
+            <distancia valor = "250"/>
+            <coordenadas>
+                <longitud valor ="-73.5299"/>
+                <latitud valor = "45.5038"/>
+                <altitud valor = "6"/>
+            </coordenadas>
+            <numeroSector valor = "2"/>
+        </tramo>
+
+        <tramo>
+            <distancia valor = "1200"/>
+            <coordenadas>
+                <longitud valor ="-73.5317"/>
+                <latitud valor = "45.5064"/>
+                <altitud valor ="7"/>
+            </coordenadas>
+            <numeroSector valor = "3"/>
+        </tramo>
+        
+    </tramos>
+
+</circuito>

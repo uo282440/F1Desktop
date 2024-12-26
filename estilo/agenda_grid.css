@@ -1,0 +1,30 @@
+/* Pablo Jose Perez Diez UO282440  */
+
+/*Selector Specificity: (0, 0, 1)*/
+main {
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    flex-direction: column; 
+}
+   
+/*Selector Specificity: (0, 0, 1)*/
+article {
+    width: 40%; 
+    margin: 0.5% 0; 
+    text-align: center;
+    border-style: solid;
+    color: white;
+    background-color: black;
+}  
+
+/*Selector Specificity: (0, 0, 2)*/
+article h3 {
+    text-decoration: underline;
+}
+
+/*Selector Specificity: (0, 0, 2)*/
+section h6 {
+    display: none;
+    visibility: hidden;
+}

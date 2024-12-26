@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<circuito xmlns="http://www.uniovi.es" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://www.uniovi.es circuito.xsd">
+
+    <nombre>Circuit Gilles Villeneuve</nombre>
+    <longitudCircuito>4361</longitudCircuito>
+    <anchura>12</anchura>
+    <fecha>2024-06-09</fecha>
+    <horaInicio>20:00:00</horaInicio>
+    <numeroVueltas>70</numeroVueltas>
+    <localidad>Montreal</localidad>
+    <pais>Canadá</pais>
+    
+
+    <referencias>
+        <referencia nombre="Historia del Circuito Gilles Villeneuve" enlace="https://es.wikipedia.org/wiki/Circuito_Gilles-Villeneuve" /> 
+        <referencia nombre="Datos técnicos del circuito de Montreal" enlace=" https://www.formula1.com/en/racing/2024/Canada.html"/> 
+        <referencia nombre="Circuito de Canadá - Fórmula 1" enlace="https://www.motorsport.com/f1/canadian-gp"/> 
+    </referencias>
+
+    <fotos>
+        <!-- meter las fotos dentro de la carpeta xml(segun pone en P4) -->
+        <foto nombre="Mapa del circuito" enlace="../multimedia/imagenes/mapa_circuito.jpg"/>
+    </fotos>
+
+    <videos>
+        <video nombre="video1" enlace="enlace"/>
+    </videos>
+
+    <coordenadas> 
+        <longitud valor="-73.5228890"/>
+        <latitud valor="45.5007039"/>
+        <altitud valor = "9"/>
+    </coordenadas>
+
+
+    <!-- poner bien los sectores -->
+    <tramos>
+        <tramo>
+            <distancia valor="141"/> <!-- 141 -->
+            <coordenadas>
+                <longitud valor="-73.5228890"/>
+                <latitud valor="45.5007039"/>
+                <altitud valor = "9"/>
+            </coordenadas>
+            <numeroSector valor= "1"/>
+        </tramo>
+
+        <tramo>
+            <distancia valor = "323"/> <!-- 182 -->
+            <coordenadas>
+                <longitud valor="-73.5225911"/>
+                <latitud valor= "45.4994496"/>
+                <altitud valor ="9"/>
+            </coordenadas>
+            <numeroSector valor = "1"/>
+        </tramo>
+
+        <tramo>
+            <distancia valor = "383"/> <!-- 60 -->
+            <coordenadas>
+                <longitud valor = "-73.5227617"/>
+                <latitud valor = "45.4978856"/>
+                <altitud valor = "10"/>
+            </coordenadas>
+            <numeroSector valor="2"/>
+        </tramo>
+
+        <tramo>
+            <distancia valor = "423"/> <!-- 40 -->
+            <coordenadas>
+                <longitud valor ="-73.5220636"/>
+                <latitud valor = "45.4975408"/>
+                <altitud valor = "10"/>
+            </coordenadas>
+            <numeroSector valor = "2"/>
+        </tramo>
+
+        <tramo>
+            <distancia valor = "469"/> <!-- 46 -->
+            <coordenadas>
+                <longitud valor ="-73.5219865"/>
+                <latitud valor = "45.4972439"/>
+                <altitud valor ="7"/>
+            </coordenadas>
+            <numeroSector valor = "10"/>
+        </tramo>
+
+        <tramo>
+            <distancia valor = "576"/> <!-- 107 -->
+            <coordenadas>
+                <longitud valor ="-73.5224980"/>
+                <latitud valor = "45.4970653"/>
+                <altitud valor ="11"/>
+            </coordenadas>
+            <numeroSector valor = "11"/>
+        </tramo>
+
+        <tramo>
+            <distancia valor = "802"/> <!-- 226 -->
+            <coordenadas>
+                <longitud valor ="-73.5238594"/>
+                <latitud valor = "45.4973321"/>
+                <altitud valor ="14"/>
+            </coordenadas>
+            <numeroSector valor = "14"/>
+        </tramo>
+
+        <tramo>
+            <distancia valor = "857"/> <!-- 55 -->
+            <coordenadas>
+                <longitud valor ="-73.5260598"/>
+                <latitud valor = "45.4986441"/>
+                <altitud valor ="14"/>
+            </coordenadas>
+            <numeroSector valor = "1"/>
+        </tramo>
+
+        <tramo>
+            <distancia valor = "1113"/> <!-- 256 -->
+            <coordenadas>
+                <longitud valor ="-73.5259473"/>
+                <latitud valor = "45.4991418"/>
+                <altitud valor ="12"/>
+            </coordenadas>
+            <numeroSector valor = "1"/>
+        </tramo>
+
+        <tramo> 
+            <distancia valor = "1311"/> <!-- 198 -->
+            <coordenadas>
+                <longitud valor ="-73.5279621"/>
+                <latitud valor = "45.5007739"/>
+                <altitud valor ="10"/>
+            </coordenadas>
+            <numeroSector valor = "1"/>
+        </tramo>
+
+        <tramo> 
+            <distancia valor = "1423"/> <!-- 112 -->
+            <coordenadas>
+                <longitud valor ="-73.5281194"/>
+                <latitud valor = "45.5026965"/>
+                <altitud valor ="11"/>
+            </coordenadas>
+            <numeroSector valor = "1"/>
+        </tramo>
+
+        <tramo> 
+            <distancia valor = "2046"/> <!-- 623 -->
+            <coordenadas>
+                <longitud valor ="-73.5295978"/>
+                <latitud valor = "45.5031143"/>
+                <altitud valor ="12"/>
+            </coordenadas>
+            <numeroSector valor = "1"/>
+        </tramo>
+
+        <tramo> 
+            <distancia valor = "2108"/> <!-- 62 -->
+            <coordenadas>
+                <longitud valor ="-73.5291225"/>
+                <latitud valor = "45.5086866"/>
+                <altitud valor ="12"/>
+            </coordenadas>
+            <numeroSector valor = "1"/>
+        </tramo>
+
+        <tramo> 
+            <distancia valor = "2509"/> <!-- 401 -->
+            <coordenadas>
+                <longitud valor ="-73.5283297"/>
+                <latitud valor = "45.5088531"/>
+                <altitud valor ="12"/>
+            </coordenadas>
+            <numeroSector valor = "1"/>
+        </tramo>
+
+        <tramo> 
+            <distancia valor = "2707"/> <!-- 198 -->
+            <coordenadas>
+                <longitud valor ="-73.5272803"/>
+                <latitud valor = "45.5124001"/>
+                <altitud valor ="12"/>
+            </coordenadas>
+            <numeroSector valor = "1"/>
+        </tramo>
+
+        <tramo> 
+            <distancia valor = "2743"/> <!-- 36 -->
+            <coordenadas>
+                <longitud valor ="-73.5277026"/>
+                <latitud valor = "45.5141585"/>
+                <altitud valor ="12"/>
+            </coordenadas>
+            <numeroSector valor = "1"/>
+        </tramo>
+
+        <tramo> 
+            <distancia valor = "3102"/> <!-- 359 -->
+            <coordenadas>
+                <longitud valor ="-73.5273230"/>
+                <latitud valor = "45.5142430"/>
+                <altitud valor ="12"/>
+            </coordenadas>
+            <numeroSector valor = "1"/>
+        </tramo>
+
+        <tramo> 
+            <distancia valor = "4178"/> <!-- 1076 -->
+            <coordenadas>
+                <longitud valor ="-73.5252985"/>
+                <latitud valor = "45.5102286"/>
+                <altitud valor ="10"/>
+            </coordenadas>
+            <numeroSector valor = "1"/> 
+        </tramo>
+
+        <tramo>
+            <distancia valor="4319"/> <!-- 141 -->
+            <coordenadas>
+                <longitud valor="-73.5228890"/>
+                <latitud valor="45.5007039"/>
+                <altitud valor = "9"/>
+            </coordenadas>
+            <numeroSector valor= "1"/>
+        </tramo>
+        
+    </tramos>
+
+</circuito>

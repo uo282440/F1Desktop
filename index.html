@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>F1 DESKTOP</title>
+
+    <meta name ="author" content ="uo282440 Pablo Jose Perez Diez" />
+    <meta name ="description" content ="pagina principal del proyecto F1 Desktop" />
+    <meta name ="keywords" content ="aquí cada documento debe tener la lista
+        de las palabras clave del mismo separadas por comas" />
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+
+    <!-- Enlace del icono -->
+    <link rel="icon" href="multimedia/imagenes/favicon.ico" type="image/png">
+    <link rel="stylesheet" href="estilo/estilo.css">
+    <link rel="stylesheet" href="estilo/layout.css">
+
+    <script src="js/fondo.js"></script>
+
+    <script 
+        src="https://code.jquery.com/jquery-3.7.1.min.js" 
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" 
+        crossorigin="anonymous">
+    </script>
+
+</head>
+
+<body>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <header>
+
+        <h1>F1 Desktop</h1>
+
+        <nav>
+            <a href="index.html" class="active">Inicio</a>
+            <a href="calendario.html">Calendario</a>
+            <a href="circuito.html">Circuito</a>
+            <a href="juegos.html">Juegos</a>
+            <a href="meteorologia.html">Meteorologia</a>
+            <a href="noticias.html">Noticias</a>
+            <a href="piloto.html">Piloto</a>
+            <a href="viajes.php">Viajes</a>
+        </nav>
+
+    </header>
+
+
+    <script>
+        var fondo = new Fondo("Canada", "Ottawa", "Circuit Gilles-Villeneuve");
+        fondo.consultaAjax();
+    </script>
+
+</body>
+</html>
